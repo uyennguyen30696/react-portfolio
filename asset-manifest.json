@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.463bc672.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.463bc672.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.181feee0.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.181feee0.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.fabbef47.chunk.css": "/react-portfolio/static/css/2.fabbef47.chunk.css",
-    "static/js/2.8f1ec875.chunk.js": "/react-portfolio/static/js/2.8f1ec875.chunk.js",
-    "static/js/2.8f1ec875.chunk.js.map": "/react-portfolio/static/js/2.8f1ec875.chunk.js.map",
+    "static/js/2.efb26149.chunk.js": "/react-portfolio/static/js/2.efb26149.chunk.js",
+    "static/js/2.efb26149.chunk.js.map": "/react-portfolio/static/js/2.efb26149.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.fabbef47.chunk.css.map": "/react-portfolio/static/css/2.fabbef47.chunk.css.map",
-    "static/js/2.8f1ec875.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8f1ec875.chunk.js.LICENSE.txt",
+    "static/js/2.efb26149.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.efb26149.chunk.js.LICENSE.txt",
     "static/media/eat-da-burger.44a9f10b.png": "/react-portfolio/static/media/eat-da-burger.44a9f10b.png",
     "static/media/employee-ebook.12d29cff.png": "/react-portfolio/static/media/employee-ebook.12d29cff.png",
     "static/media/game-keeper.c542d314.png": "/react-portfolio/static/media/game-keeper.c542d314.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.fabbef47.chunk.css",
-    "static/js/2.8f1ec875.chunk.js",
-    "static/js/main.463bc672.chunk.js"
+    "static/js/2.efb26149.chunk.js",
+    "static/js/main.181feee0.chunk.js"
   ]
 }
