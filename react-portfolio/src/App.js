@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <HashRouter basename="/">
+        <HashRouter basename="/react-portfolio">
             <div>
                 <NavBar />
                 <Route exact path="/" component={Home} />
