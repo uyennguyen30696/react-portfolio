@@ -24,17 +24,14 @@ function Carousels() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-7 link deployed-link">
-                                        {/* <a href="https://game-keeper-app.herokuapp.com/" target="_blank">
-                                            Deployed link
-                                        </a> */}
                                         <Link to="https://game-keeper-app.herokuapp.com/" className={location.pathname = ""} target="_blank">
                                             Deployed link
                                         </Link>
                                     </div>
                                     <div className="col link github-link">
-                                        <a href="https://github.com/uyennguyen30696/game-keeper" target="_blank">
-                                            View on Github
-                                        </a>
+                                        <Link to="https://github.com/uyennguyen30696/game-keeper" className={location.pathname = ""} target="_blank">
+                                            GitHub repo
+                                        </Link>
                                     </div>
                                 </div>
                                 <br></br>
@@ -54,14 +51,14 @@ function Carousels() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-7 link deployed-link">
-                                        <a href="https://eat-da-burger-app-by-uyen.herokuapp.com/" target="_blank">
+                                        <Link to="https://eat-da-burger-app-by-uyen.herokuapp.com/" className={location.pathname = ""} target="_blank">
                                             Deployed link
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className="col link github-link">
-                                        <a href="https://github.com/uyennguyen30696/hw11-handlebars-node-express" target="_blank">
-                                            View on Github
-                                        </a>
+                                        <Link to="https://github.com/uyennguyen30696/hw11-handlebars-node-express" className={location.pathname = ""} target="_blank">
+                                            GitHub repo
+                                        </Link>
                                     </div>
                                 </div>
                                 <br></br>
@@ -86,21 +83,21 @@ function Carousels() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-7 link deployed-link">
-                                        <a href="https://uyennguyen30696.github.io/employee-directory/" target="_blank">
+                                        <Link to="https://uyennguyen30696.github.io/employee-directory/" className={location.pathname = ""} target="_blank">
                                             Deployed link
-                    </a>
+                                        </Link>
                                     </div>
                                     <div className="col link github-link">
-                                        <a href="https://github.com/uyennguyen30696/employee-directory" target="_blank">
-                                            View on Github
-                    </a>
+                                        <Link to="https://github.com/uyennguyen30696/employee-directory" className={location.pathname = ""} target="_blank">
+                                            GitHub repo
+                                        </Link>
                                     </div>
                                 </div>
                                 <br></br>
                                 <h5>Employee Ebook</h5>
                                 <p>A single web application that allows easy access to non-sensitive data of employees at once.
                                 Employees can be sorted by names alphabetically.
-                  <br></br>
+                                <br></br>
                                     <em>ReactJS</em>
                                 </p>
                             </div>
@@ -113,14 +110,14 @@ function Carousels() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-7 link deployed-link">
-                                        <a href="https://uyennguyen30696.github.io/food-hunt-project-01/" target="_blank">
+                                        <Link to="https://uyennguyen30696.github.io/food-hunt-project-01/" className={location.pathname = ""} target="_blank">
                                             Deployed link
-                    </a>
+                                        </Link>
                                     </div>
                                     <div className="col link github-link">
-                                        <a href="https://github.com/uyennguyen30696/project-01" target="_blank">
-                                            View on Github
-                    </a>
+                                        <Link to="https://github.com/uyennguyen30696/project-01" className={location.pathname = ""} target="_blank">
+                                            GitHub repo
+                                        </Link>
                                     </div>
                                 </div>
                                 <br></br>
@@ -128,7 +125,7 @@ function Carousels() {
                                 <p>A single page application that allows users to search for local restaurants and get direction to
                                 those
                                 restaurants.
-                  <br></br>
+                                <br></br>
                                     <em>Javascript, OpenStreetMap, Leaflet</em>
                                 </p>
                             </div>
@@ -141,20 +138,20 @@ function Carousels() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-7 link deployed-link">
-                                        <a href="https://uyennguyen30696.github.io/sky-high-weather/" target="_blank">
+                                        <Link to="https://uyennguyen30696.github.io/sky-high-weather/" className={location.pathname = ""} target="_blank">
                                             Deployed link
-                    </a>
+                                        </Link>
                                     </div>
                                     <div className="col link github-link">
-                                        <a href="https://github.com/uyennguyen30696/hw6-weather-dashboard" target="_blank">
-                                            View on Github
-                    </a>
+                                        <Link to="https://github.com/uyennguyen30696/hw6-weather-dashboard" className={location.pathname = ""} target="_blank">
+                                            GitHub repo
+                                        </Link>
                                     </div>
                                 </div>
                                 <br></br>
                                 <h5>Sky High Weather</h5>
                                 <p>A single page weather forecast application, which displays current weather and five day forecast.
-                  <br></br>
+                                <br></br>
                                     <em>Javascript, OpenWeather API</em>
                                 </p>
                             </div>
@@ -167,20 +164,20 @@ function Carousels() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-7 link deployed-link">
-                                        <a href="https://uyennguyen30696.github.io/timed-trivia-game/intro.html" target="_blank">
+                                        <Link to="https://uyennguyen30696.github.io/timed-trivia-game/intro.html" className={location.pathname = ""} target="_blank">
                                             Deployed link
-                    </a>
+                                        </Link>
                                     </div>
                                     <div className="col link github-link">
-                                        <a href="https://github.com/uyennguyen30696/timed-trivia-game" target="_blank">
-                                            View on Github
-                    </a>
+                                        <Link to="https://github.com/uyennguyen30696/timed-trivia-game" className={location.pathname = ""} target="_blank">
+                                            GitHub repo
+                                        </Link>
                                     </div>
                                 </div>
                                 <br></br>
                                 <h5>Timed Trivia Game</h5>
                                 <p>A timed trivia game with multiple choice questions from a mad scientist.
-                  <br></br>
+                                <br></br>
                                     <em>Javascript</em>
                                 </p>
                             </div>
@@ -193,20 +190,20 @@ function Carousels() {
                             <div className="card-body">
                                 <div className="row">
                                     <div className="col-7 link deployed-link">
-                                        <a href="https://uyennguyen30696.github.io/workday-tracker/" target="_blank">
+                                        <Link to="https://uyennguyen30696.github.io/workday-tracker/" className={location.pathname = ""} target="_blank">
                                             Deployed link
-                    </a>
+                                        </Link>
                                     </div>
                                     <div className="col link github-link">
-                                        <a href="https://github.com/uyennguyen30696/hw5-workday-scheduler" target="_blank">
-                                            View on Github
-                    </a>
+                                        <Link to="https://github.com/uyennguyen30696/hw5-workday-scheduler" className={location.pathname = ""} target="_blank">
+                                            GitHub repo
+                                        </Link>
                                     </div>
                                 </div>
                                 <br></br>
                                 <h5>Workday Tracker</h5>
                                 <p>A single page application for planning tasks during workday from 9am to 5pm.
-                  <br></br>
+                                 <br></br>
                                     <em>Javascript, Luxon</em>
                                 </p>
                             </div>
