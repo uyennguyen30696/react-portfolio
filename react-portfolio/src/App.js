@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
@@ -9,16 +9,17 @@ import AllPages from "./pages/AllPages";
 
 function App() {
     return (
-        <BrowserRouter>
+        <Router basename={process.env.PUBLIC_URL}>
             <div>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/portfolio" component={Portfolio} />
-                <Route exact path="/resume" component={Resume} />
-                <Route exact path="/contact" component={Contact} />
-
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/portfolio" component={Portfolio} />
+                    <Route exact path="/resume" component={Resume} />
+                    <Route exact path="/contact" component={Contact} />
+                </Switch>
                 <AllPages />
             </div>
-        </BrowserRouter>
+        </Router>
     );
 };
 
