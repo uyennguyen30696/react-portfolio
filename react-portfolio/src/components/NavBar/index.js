@@ -13,7 +13,7 @@ function NavBar() {
                         <Nav.Link href="#portfolio-page">Portfolio</Nav.Link>
                         <Nav.Link href="https://docs.google.com/document/d/13abW9uFe8jPw9Qd8nvKZZp3naDpZR0JnHH_PfXhU1oA/edit"
                             target="_blank">Resume
-                    </Nav.Link>
+                        </Nav.Link>
                         <Nav.Link href="#contact-page">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
