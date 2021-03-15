@@ -1,25 +1,13 @@
-[
+import employeeEbook from "./images/employee-ebook.png";
+import foodHunt from "./images/project-01.png";
+import weather from "./images/weather.png";
+import trivia from "./images/timed-trivia.png";
+import workday from "./images/workday.png";
+
+const projectsFrontEnd = [
     {
         "id": 1,
-        "image": "",
-        "name": "Game keeper",
-        "deployedLink": "https://game-keeper-app.herokuapp.com/",
-        "githubLink": "https://github.com/uyennguyen30696/game-keeper", 
-        "summary": "A full stack secure authentication web application that helps users save and organize their board games.",
-        "technologies": "Javascript, Sequelize, Passport-jwt"
-    },
-    {
-        "id": 2,
-        "image": "",
-        "name": "Eat-da-burger",
-        "deployedLink": "https://eat-da-burger-app-by-uyen.herokuapp.com/",
-        "githubLink": "https://github.com/uyennguyen30696/hw11-handlebars-node-express", 
-        "summary": "A simple full stack application that demonstrates a restaurant order site.",
-        "technologies": "Javascript, MySQL, Handlebars"
-    },
-    {
-        "id": 3,
-        "image": "",
+        "image": employeeEbook,
         "name": "Employee Ebook",
         "deployedLink": "https://uyennguyen30696.github.io/employee-directory/",
         "githubLink": "https://github.com/uyennguyen30696/employee-directory", 
@@ -27,8 +15,8 @@
         "technologies": "ReactJS"
     },
     {
-        "id": 4,
-        "image": "",
+        "id": 2,
+        "image": foodHunt,
         "name": "Food Hunt",
         "deployedLink": "https://uyennguyen30696.github.io/food-hunt-project-01/",
         "githubLink": "https://github.com/uyennguyen30696/project-01", 
@@ -36,8 +24,8 @@
         "technologies": "Javascript, OpenStreetMap, Leaflet"
     },
     {
-        "id": 5,
-        "image": "",
+        "id": 3,
+        "image": weather,
         "name": "Sky High Weather",
         "deployedLink": "https://uyennguyen30696.github.io/sky-high-weather/",
         "githubLink": "https://github.com/uyennguyen30696/hw6-weather-dashboard", 
@@ -45,8 +33,8 @@
         "technologies": "Javascript, OpenWeather API"
     },
     {
-        "id": 6,
-        "image": "",
+        "id": 4,
+        "image": trivia,
         "name": "Timed Trivia Game",
         "deployedLink": "https://uyennguyen30696.github.io/timed-trivia-game/intro.html",
         "githubLink": "https://github.com/uyennguyen30696/timed-trivia-game", 
@@ -54,8 +42,8 @@
         "technologies": "Javascript"
     },
     {
-        "id": 7,
-        "image": "",
+        "id": 5,
+        "image": workday,
         "name": "Workday Tracker",
         "deployedLink": "https://uyennguyen30696.github.io/workday-tracker/",
         "githubLink": "https://github.com/uyennguyen30696/hw5-workday-scheduler", 
@@ -63,3 +51,5 @@
         "technologies": "Javascript, Luxon"
     }
 ]
+
+export default projectsFrontEnd;

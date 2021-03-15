@@ -3,7 +3,9 @@ import ContactBody from "../components/ContactBody";
 
 function Contact() {
     return (
-        <ContactBody />
+        <div id="contact-page">
+            <ContactBody />
+        </div>
     );
 };
 

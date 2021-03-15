@@ -4,19 +4,19 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+
+import AllPages from "./pages/AllPages";
 
 function App() {
     return (
         <BrowserRouter>
             <div>
-                <NavBar />
                 <Route exact path="/" component={Home} />
                 <Route exact path="/portfolio" component={Portfolio} />
                 <Route exact path="/resume" component={Resume} />
                 <Route exact path="/contact" component={Contact} />
-                <Footer />
+
+                <AllPages />
             </div>
         </BrowserRouter>
     );

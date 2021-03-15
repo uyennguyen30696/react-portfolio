@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import GitHubImg from "./images/github_logo.png";
 import LinkedInImg from "./images/linkedin_logo.jpg";
-import { Form, Button } from "react-bootstrap";
+// import { Form, Button } from "react-bootstrap";
 
 function ContactBody() {
     const location = useLocation();
@@ -10,7 +10,7 @@ function ContactBody() {
         <div>
             <section className="connect-with-me-wrapper">
                 <h2>Connect with me</h2>
-                <div classNameName="connect-with-me row">
+                <div className="connect-with-me row">
                     <div className="icon col-6">
                         <Link to="https://github.com/uyennguyen30696" className={location.pathname = ""}
                             target="_blank"><span><img src={GitHubImg} alt="GitHub"></img></span>
@@ -27,7 +27,7 @@ function ContactBody() {
                 <hr className="hr"></hr>
             </section>
 
-            <section className="container-contact-box">
+            {/* <section className="container-contact-box">
                 <div className="contact-title">
                     <h2>Let's keep in touch</h2>
                 </div>
@@ -60,10 +60,10 @@ function ContactBody() {
 
                         <Button variant="primary" type="submit">
                             Send
-                </Button>
+                        </Button>
                     </Form>
                 </div>
-            </section>
+            </section> */}
         </div>
     );
 };

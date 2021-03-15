@@ -3,7 +3,9 @@ import Bio from "../components/Bio";
 
 function Home() {
     return (
-        <Bio />
+        <div id="home-page">
+            <Bio />
+        </div>
     );
 };
 
