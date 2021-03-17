@@ -1,5 +1,5 @@
-import gameKeeperImg from "./images/game-keeper.png";
-import burger from "./images/eat-da-burger.png";
+import gameKeeperImg from "../images/game-keeper.png";
+import burger from "../images/eat-da-burger.png";
 
 const projectsFullStack = [
     {

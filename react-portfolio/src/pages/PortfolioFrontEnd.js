@@ -1,34 +1,28 @@
 import React from "react";
+import "./styling/portfolioFrontEnd.css";
 import { Component } from "react";
-// import Carousels from "../components/Carousel";
 import Card from "../components/Card";
-import projectsFullStack from "../data/projectsFullStack";
-import projectsFrontEnd from "../data/projectsFrontEnd1";
+import projectsFrontEnd1 from "../data/projectsFrontEnd1";
+import projectsFrontEnd2 from "../data/projectsFrontEnd2";
+import projectsFrontEnd3 from "../data/projectsFrontEnd3";
 import { Carousel } from "react-bootstrap";
 
-// function Portfolio() {
-//     return (
-//         <div>
-//             <Carousels />
-//         </div>
-//     );
-// };
-
-class Portfolio extends Component {
+class PortfolioFrontEnd extends Component {
     state = {
-        projectsFullStack,
-        projectsFrontEnd
+        projectsFrontEnd1, 
+        projectsFrontEnd2,
+        projectsFrontEnd3,
     };
 
     render() {
         return (
-            <div id="portfolio-page">
+            <div id="portfolioFrontEnd-page">
                 <Carousel>
                     <Carousel.Item>
                         <div>
-                            <h4>Full stack</h4>
+                            <h4>Front End</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
-                                {this.state.projectsFullStack.map(project => (
+                                {this.state.projectsFrontEnd1.map(project => (
                                     <Card
                                         key={project.id}
                                         id={project.id}
@@ -45,9 +39,9 @@ class Portfolio extends Component {
                     </Carousel.Item>
                     <Carousel.Item >
                         <div>
-                            <h4>Front end</h4>
+                            <h4>Front End</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
-                                {this.state.projectsFrontEnd.map(project => (
+                                {this.state.projectsFrontEnd2.map(project => (
                                     <Card
                                         key={project.id}
                                         id={project.id}
@@ -62,10 +56,29 @@ class Portfolio extends Component {
                             </div>
                         </div>
                     </Carousel.Item>
-                </Carousel>
+                    <Carousel.Item >
+                        <div>
+                            <h4>Front End</h4>
+                            <div className="project d-flex flex-wrap justify-content-center">
+                                {this.state.projectsFrontEnd3.map(project => (
+                                    <Card
+                                        key={project.id}
+                                        id={project.id}
+                                        name={project.name}
+                                        image={project.image}
+                                        deployedLink={project.deployedLink}
+                                        githubLink={project.githubLink}
+                                        summary={project.summary}
+                                        technologies={project.technologies}
+                                    />
+                                ))};
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                </Carousel> 
             </div>
         )
     };
 };
 
-export default Portfolio;
+export default PortfolioFrontEnd;

@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import { Link, useLocation } from "react-router-dom";
 
 function Card(props) {
@@ -7,7 +8,7 @@ function Card(props) {
         <div>
             <div className="card" id={props.id}>
                 <div className="card-head">
-                    <img src={props.image} alt={props.name} />
+                    <img class="img-project" src={props.image} alt={props.name} />
                 </div>
                 <div className="card-body">
                     <div className="row">

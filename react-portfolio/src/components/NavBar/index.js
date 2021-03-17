@@ -1,10 +1,12 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.css";
 import { Navbar, Nav } from "react-bootstrap";
 
 function NavBar() {
     return (
         <div id="navbar">
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="dark" variant="dark" expand="lg">
                 <Navbar.Brand href="#home-page">UYEN NGUYEN</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

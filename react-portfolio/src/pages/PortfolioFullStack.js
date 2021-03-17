@@ -1,28 +1,20 @@
 import React from "react";
+import "./styling/portfolioFullStack.css";
 import { Component } from "react";
-// import Carousels from "../components/Carousel";
 import Card from "../components/Card";
 import projectsFullStack from "../data/projectsFullStack";
-import projectsFrontEnd from "../data/projectsFrontEnd1";
+import projectsUpcoming from "../data/projectsUpcoming";
 import { Carousel } from "react-bootstrap";
 
-// function Portfolio() {
-//     return (
-//         <div>
-//             <Carousels />
-//         </div>
-//     );
-// };
-
-class Portfolio extends Component {
+class PortfolioFullStack extends Component {
     state = {
         projectsFullStack,
-        projectsFrontEnd
+        projectsUpcoming
     };
 
     render() {
         return (
-            <div id="portfolio-page">
+            <article id="portfolioFullStack-page">
                 <Carousel>
                     <Carousel.Item>
                         <div>
@@ -45,9 +37,9 @@ class Portfolio extends Component {
                     </Carousel.Item>
                     <Carousel.Item >
                         <div>
-                            <h4>Front end</h4>
+                            <h4>Upcoming Full Stack Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
-                                {this.state.projectsFrontEnd.map(project => (
+                                {this.state.projectsUpcoming.map(project => (
                                     <Card
                                         key={project.id}
                                         id={project.id}
@@ -63,9 +55,9 @@ class Portfolio extends Component {
                         </div>
                     </Carousel.Item>
                 </Carousel>
-            </div>
+            </article>
         )
     };
 };
 
-export default Portfolio;
+export default PortfolioFullStack;
