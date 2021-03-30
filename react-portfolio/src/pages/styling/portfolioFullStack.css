@@ -3,3 +3,9 @@
     height: 100vh;
     background-color: #FAE1DD;
 }
+
+@media(max-width: 850px) {
+    #portfolioFullStack-page  {
+        height: 1100px;
+    }
+}

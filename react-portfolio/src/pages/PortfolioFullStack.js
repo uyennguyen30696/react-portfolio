@@ -7,6 +7,7 @@ import projectsFullStack2 from "../data/projectsFullStack2";
 import { Carousel } from "react-bootstrap";
 
 class PortfolioFullStack extends Component {
+    
     state = {
         projectsFullStack1,
         projectsFullStack2

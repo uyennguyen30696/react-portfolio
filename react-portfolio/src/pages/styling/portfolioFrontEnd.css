@@ -3,3 +3,9 @@
     height: 100vh;
     background-color: grey;
 }
+
+@media(max-width: 850px) {
+    #portfolioFrontEnd-page  {
+        height: 1100px !important;
+    }
+}

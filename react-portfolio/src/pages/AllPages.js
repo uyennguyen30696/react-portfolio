@@ -3,7 +3,6 @@ import "./styling/allPages.css";
 import FixedBackground from "../components/FixedBackground";
 import Greeting from "./Greeting";
 import Home from "./Home";
-// import Portfolio from "./Portfolio";
 import PortfolioFullStack from "./PortfolioFullStack";
 import PortfolioFrontEnd from "./PortfolioFrontEnd";
 import NavBar from "../components/NavBar";
@@ -18,7 +17,7 @@ function AllPages() {
             <div id="navbar">
                 <NavBar />
             </div>
-            <div id="pages">
+            <div>
                 <FixedBackground />
             </div>
             <div className="pages">
@@ -30,9 +29,6 @@ function AllPages() {
             <div className="pages">
                 <EmptySpace />
             </div>
-            {/* <div className="pages">
-                <Portfolio />
-            </div> */}
             <div className="pages">
                 <PortfolioFullStack />
             </div>
