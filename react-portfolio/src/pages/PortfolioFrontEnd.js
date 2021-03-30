@@ -21,7 +21,7 @@ class PortfolioFrontEnd extends Component {
                 <Carousel>
                     <Carousel.Item>
                         <div>
-                            <h4>Front End</h4>
+                            <h4>Front End Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
                                 {this.state.projectsFrontEnd1.map(project => (
                                     <Card
@@ -40,7 +40,7 @@ class PortfolioFrontEnd extends Component {
                     </Carousel.Item>
                     <Carousel.Item >
                         <div>
-                            <h4>Front End</h4>
+                            <h4>Front End Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
                                 {this.state.projectsFrontEnd2.map(project => (
                                     <Card
@@ -59,7 +59,7 @@ class PortfolioFrontEnd extends Component {
                     </Carousel.Item>
                     <Carousel.Item >
                         <div>
-                            <h4>Front End</h4>
+                            <h4>Front End Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
                                 {this.state.projectsFrontEnd3.map(project => (
                                     <Card

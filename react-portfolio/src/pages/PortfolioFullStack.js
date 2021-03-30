@@ -19,7 +19,7 @@ class PortfolioFullStack extends Component {
                 <Carousel>
                     <Carousel.Item>
                         <div>
-                            <h4>Full stack</h4>
+                            <h4>Full Stack Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
                                 {this.state.projectsFullStack1.map(project => (
                                     <Card
@@ -38,7 +38,7 @@ class PortfolioFullStack extends Component {
                     </Carousel.Item>
                     <Carousel.Item >
                         <div>
-                            <h4>Upcoming Full Stack Projects</h4>
+                            <h4>Full Stack Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
                                 {this.state.projectsFullStack2.map(project => (
                                     <Card
