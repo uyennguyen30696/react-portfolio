@@ -7,11 +7,12 @@ import projectsFrontEnd2 from "../data/projectsFrontEnd2";
 import projectsFrontEnd3 from "../data/projectsFrontEnd3";
 import { Carousel } from "react-bootstrap";
 
+
 class PortfolioFrontEnd extends Component {
     state = {
         projectsFrontEnd1, 
         projectsFrontEnd2,
-        projectsFrontEnd3,
+        projectsFrontEnd3
     };
 
     render() {

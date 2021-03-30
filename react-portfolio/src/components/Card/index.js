@@ -1,26 +1,24 @@
 import React from "react";
 import "./style.css";
-import { Link, useLocation } from "react-router-dom";
 
 function Card(props) {
-    const location = useLocation();
     return (
         <div>
             <div className="card" id={props.id}>
                 <div className="card-head">
-                    <img class="img-project" src={props.image} alt={props.name} />
+                    <img className="img-project" src={props.image} alt={props.name} />
                 </div>
                 <div className="card-body">
                     <div className="row">
                         <div className="col-7 link deployed-link">
-                            <Link to={props.deployedLink} className={location.pathname = ""} target="_blank">
+                            <a href={props.deployedLink} rel="noreferrer" target="_blank">
                                 Deployed link
-                            </Link>
+                            </a>
                         </div>
                         <div className="col link github-link">
-                            <Link to={props.githubLink} className={location.pathname = ""} target="_blank">
+                            <a href={props.githubLink} rel="noreferrer" target="_blank">
                                 GitHub repo
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <br></br>
