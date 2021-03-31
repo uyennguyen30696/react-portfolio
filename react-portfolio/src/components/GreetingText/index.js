@@ -17,11 +17,13 @@ function GreetingText() {
                         </div>
                     </div>
                 </div>
-                <button id="arrow-button">
-                    <span>Explore</span>
-                    <br></br>
-                    <span><FontAwesomeIcon icon={faAngleDoubleDown} /></span>
-                </button>
+                <a href="#home-page">
+                    <button id="arrow-button">
+                        <span>Explore</span>
+                        <br></br>
+                        <span><FontAwesomeIcon icon={faAngleDoubleDown} /></span>
+                    </button>
+                </a>
             </section>
             <div id="bottom-box"></div>
         </article>
