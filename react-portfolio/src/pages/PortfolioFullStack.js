@@ -17,7 +17,7 @@ class PortfolioFullStack extends Component {
         return (
             <article id="portfolioFullStack-page">
                 <Carousel>
-                    <Carousel.Item>
+                    <Carousel.Item interval={3000}>
                         <div>
                             <h4>Full Stack Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
@@ -32,11 +32,11 @@ class PortfolioFullStack extends Component {
                                         summary={project.summary}
                                         technologies={project.technologies}
                                     />
-                                ))};
+                                ))}
                             </div>
                         </div>
                     </Carousel.Item>
-                    <Carousel.Item >
+                    <Carousel.Item interval={3000}>
                         <div>
                             <h4>Full Stack Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
@@ -51,7 +51,7 @@ class PortfolioFullStack extends Component {
                                         summary={project.summary}
                                         technologies={project.technologies}
                                     />
-                                ))};
+                                ))}
                             </div>
                         </div>
                     </Carousel.Item>

@@ -19,7 +19,7 @@ class PortfolioFrontEnd extends Component {
         return (
             <div id="portfolioFrontEnd-page">
                 <Carousel>
-                    <Carousel.Item>
+                    <Carousel.Item interval={3000}>
                         <div>
                             <h4>Front End Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
@@ -38,7 +38,7 @@ class PortfolioFrontEnd extends Component {
                             </div>
                         </div>
                     </Carousel.Item>
-                    <Carousel.Item >
+                    <Carousel.Item interval={3000}>
                         <div>
                             <h4>Front End Projects</h4>
                             <div className="project d-flex flex-wrap justify-content-center">
@@ -53,7 +53,7 @@ class PortfolioFrontEnd extends Component {
                                         summary={project.summary}
                                         technologies={project.technologies}
                                     />
-                                ))};
+                                ))}
                             </div>
                         </div>
                     </Carousel.Item>
@@ -72,7 +72,7 @@ class PortfolioFrontEnd extends Component {
                                         summary={project.summary}
                                         technologies={project.technologies}
                                     />
-                                ))};
+                                ))}
                             </div>
                         </div>
                     </Carousel.Item>
