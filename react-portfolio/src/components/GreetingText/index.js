@@ -19,11 +19,13 @@ function GreetingText() {
                     </div>
                 </div>
                 <a href="#home-page">
+                    <div id="arrow-button-wrapper">
                     <button id="arrow-button">
                         <span>Explore</span>
                         <br></br>
                         <span id="arrow-icon"><FontAwesomeIcon icon={faAngleDoubleDown} /></span>
                     </button>
+                    </div>
                 </a>
             </section>
             <div id="bottom-box"></div>

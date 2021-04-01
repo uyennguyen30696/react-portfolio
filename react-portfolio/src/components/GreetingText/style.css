@@ -103,12 +103,15 @@ html {
     }
 }
 
+#arrow-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 #arrow-button {
     position: absolute;
-    bottom: -3%;
+    bottom: -2%;
     overflow: visible;
-    margin-left: 40%;
-    margin-right: 40%;
     border-color: #3A2C30;
     border-radius: 10px;
     width: 15%;
