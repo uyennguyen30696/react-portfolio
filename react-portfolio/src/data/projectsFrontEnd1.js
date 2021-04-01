@@ -1,5 +1,6 @@
 import employeeEbook from "../images/employee-ebook.png";
 import foodHunt from "../images/project-01.png";
+import weather from "../images/weather.png";
 
 const projectsFrontEnd1 = [
     {
@@ -19,7 +20,16 @@ const projectsFrontEnd1 = [
         "githubLink": "https://github.com/uyennguyen30696/project-01", 
         "summary": "A single page application that allows users to search for local restaurants and get direction to those restaurants.",
         "technologies": "Javascript, OpenStreetMap, Leaflet"
-    }
+    },
+    {
+        "id": 3,
+        "image": weather,
+        "name": "Sky High Weather",
+        "deployedLink": "https://uyennguyen30696.github.io/sky-high-weather/",
+        "githubLink": "https://github.com/uyennguyen30696/hw6-weather-dashboard", 
+        "summary": "A single page weather forecast application, which displays current weather and five day forecast.",
+        "technologies": "Javascript, OpenWeather API"
+    },
 ]
 
 export default projectsFrontEnd1;

@@ -6,8 +6,8 @@ import LinkedInImg from "./images/linkedin_logo.jpg";
 function ContactBody() {
     return (
         <div>
-            <section className="connect-with-me-wrapper">
-                <h2>Connect with me</h2>
+            <section id="connect-with-me-wrapper">
+                <h2 className="bold-text">Connect with me</h2>
                 <div className="connect-with-me row">
                     <div className="icon col-6">
                         <a href="https://github.com/uyennguyen30696" rel="noreferrer"
@@ -23,7 +23,8 @@ function ContactBody() {
                 </div>
                 <br></br>
                 <hr className="hr"></hr>
-                <h2>Thank you for visiting my portfolio!</h2>
+                <h2 className="bold-text">Thank you for visiting my portfolio!</h2>
+                <br></br>
                 <p>Don't hesitate to email me at <strong>udnguyen@ucsd.edu</strong> with any question you may have or simply just want to chat.
                     <br></br>
                     I usually check my email very often. If I haven't replied to you yet, that probably means I'm busy travelling in the middle of nowhere, but I will get back to you as soon as possible.

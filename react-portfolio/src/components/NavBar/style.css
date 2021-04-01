@@ -5,4 +5,5 @@
     overflow: hidden;
     z-index: 2;
     background-color: #292929 !important;
+    z-index: 3;
 }

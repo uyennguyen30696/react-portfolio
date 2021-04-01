@@ -1,11 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
 #portfolioFullStack-page {
+    padding-top: 80px;
+    padding-bottom: 1000px !important;
     width: 100%;
     height: 100vh;
-    background-color: #FAE1DD;
+    background: #FAE1DD;
+    background: linear-gradient(0deg, rgba(250, 225, 221, 1) 66%, rgba(255, 255, 255, 1) 100%);
 }
 
-@media(max-width: 850px) {
-    #portfolioFullStack-page  {
-        height: 1100px;
+.project {
+    padding-bottom: 80px;
+}
+
+.carousel-indicators {
+    /* background-color: #E0E2DF; */
+    z-index: 1 !important;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #3A2C30;
+    text-shadow: 2px 2px grey;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position: absolute;
+    top: 300px;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+@media (max-width: 1080px) {
+    #portfolioFullStack-page {
+        height: 1750px;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        position: absolute;
+        width: 100px !important;
+        height: 100px !important;
     }
 }

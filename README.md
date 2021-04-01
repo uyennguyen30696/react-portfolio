@@ -2,7 +2,15 @@
 
 ### Welcome to my personal portfolio built with React
 
-Take a look [here]().
+Take a look [here](https://uyennguyen30696.github.io/react-portfolio/).
+
+## Screenshots
+
+![Screenshot](./screenshots/greeting.png)
+
+![Screenshot](./screenshots/bio.png)
+
+![Screenshot](./screenshots/gallery.png)
 
 ## Content
 
