@@ -6,11 +6,11 @@ Take a look [here](https://uyennguyen30696.github.io/react-portfolio/).
 
 ## Screenshots
 
-![Screenshot](./screenshots/greeting.png)
+![Screenshot](./react-portfolio/screenshots/greeting.png)
 
-![Screenshot](./screenshots/bio.png)
+![Screenshot](./react-portfolio/screenshots/bio.png)
 
-![Screenshot](./screenshots/gallery.png)
+![Screenshot](./react-portfolio/screenshots/gallery.png)
 
 ## Content
 
