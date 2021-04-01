@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3ddd0188.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.f99c47fb.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.f99c47fb.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.73977dcb.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.55e609f5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.55e609f5.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.fabbef47.chunk.css": "/react-portfolio/static/css/2.fabbef47.chunk.css",
-    "static/js/2.fb54409f.chunk.js": "/react-portfolio/static/js/2.fb54409f.chunk.js",
-    "static/js/2.fb54409f.chunk.js.map": "/react-portfolio/static/js/2.fb54409f.chunk.js.map",
+    "static/js/2.21d2fc15.chunk.js": "/react-portfolio/static/js/2.21d2fc15.chunk.js",
+    "static/js/2.21d2fc15.chunk.js.map": "/react-portfolio/static/js/2.21d2fc15.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.fabbef47.chunk.css.map": "/react-portfolio/static/css/2.fabbef47.chunk.css.map",
-    "static/css/main.3ddd0188.chunk.css.map": "/react-portfolio/static/css/main.3ddd0188.chunk.css.map",
-    "static/js/2.fb54409f.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fb54409f.chunk.js.LICENSE.txt",
+    "static/css/main.73977dcb.chunk.css.map": "/react-portfolio/static/css/main.73977dcb.chunk.css.map",
+    "static/js/2.21d2fc15.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.21d2fc15.chunk.js.LICENSE.txt",
     "static/media/confessions.6818a06f.png": "/react-portfolio/static/media/confessions.6818a06f.png",
     "static/media/eat-da-burger.44a9f10b.png": "/react-portfolio/static/media/eat-da-burger.44a9f10b.png",
     "static/media/employee-ebook.12d29cff.png": "/react-portfolio/static/media/employee-ebook.12d29cff.png",
+    "static/media/style.css": "/react-portfolio/static/media/flowers-sunset.65677784.jpg",
     "static/media/game-keeper.c542d314.png": "/react-portfolio/static/media/game-keeper.c542d314.png",
     "static/media/github_logo.043ae95b.png": "/react-portfolio/static/media/github_logo.043ae95b.png",
     "static/media/profile.9c0f264a.png": "/react-portfolio/static/media/profile.9c0f264a.png",
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.fabbef47.chunk.css",
-    "static/js/2.fb54409f.chunk.js",
-    "static/css/main.3ddd0188.chunk.css",
-    "static/js/main.f99c47fb.chunk.js"
+    "static/js/2.21d2fc15.chunk.js",
+    "static/css/main.73977dcb.chunk.css",
+    "static/js/main.55e609f5.chunk.js"
   ]
 }
