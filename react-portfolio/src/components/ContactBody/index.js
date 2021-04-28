@@ -1,9 +1,26 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import "./style.css";
 import GitHubImg from "./images/github_logo.png";
 import LinkedInImg from "./images/linkedin_logo.jpg";
 
 function ContactBody() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm("service_o40nqnb", "template_60m1gj8", e.target, "user_qVnfI1mR3ENb2i9IQtClH")
+            .then((result) => {
+                console.log(result.text);
+                alert("Thank you! Your message was successfully sent.");
+            }, (error) => {
+                console.log(error.text);
+                alert("Sorry, an error occurred.");
+            });
+
+        e.target.reset();
+    };
+
     return (
         <div>
             <section id="connect-with-me-wrapper">
@@ -29,6 +46,47 @@ function ContactBody() {
                     <br></br>
                     I usually check my email very often. If I haven't replied to you yet, that probably means I'm busy travelling in the middle of nowhere, but I will get back to you as soon as possible.
                 </p>
+            </section>
+
+            <section>
+                <div className="form-container">
+                    <form className="contact-form" onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input
+                            type="text"
+                            placeholder="Your name"
+                            name="name"
+                        />
+                        <br></br>
+                        <label>Email</label>
+                        <input
+                            type="text"
+                            placeholder="Your email"
+                            name="email"
+                        />
+                        <br></br>
+                        <label>Subject</label>
+                        <input
+                            type="text"
+                            placeholder="Subject"
+                            name="subject"
+                        />
+                        <br></br>
+                        <label>Message</label>
+                        <textarea
+                            placeholder="Message"
+                            rows="5"
+                            name="message"
+                        >
+                        </textarea>
+                        <br></br>
+                        <button
+                            type="submit"
+                        >
+                            Send
+                        </button>
+                    </form>
+                </div>
             </section>
         </div>
     );
