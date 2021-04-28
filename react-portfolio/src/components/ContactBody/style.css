@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 #connect-with-me-wrapper {
     padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    max-width: 40%;
 }
 
 .bold-text {
@@ -43,10 +48,49 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 380px) {
+#contact-form-section {
+    min-width: 40%;
+    padding: 40px;
+    padding-bottom: 100px;
+}
+
+#keep-in-touch {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    position: relative;
+    display: block;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+}
+
+#send-button {
+    border-color: #3A2C30;;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3A2C30;
+}
+
+@media (max-width: 420px) {
+
     #connect-with-me-wrapper {
         padding-top: 0px !important;
-        padding-bottom: 80px;
+        padding-bottom: 100px;
+        min-width: 95%;
+    }
+
+    #contact-form-section {
+        min-width: 80% !important;
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+
+    #keep-in-touch {
+        margin-bottom: 5px;
     }
 
     #img-github, 

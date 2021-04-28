@@ -7,3 +7,9 @@
     background: linear-gradient(0deg, rgba(250,225,221,1) 23%, rgba(255,255,255,1) 94%);
     text-align: center;
 }
+
+@media (max-width: 420px) {
+    #contact-page {
+        height: 1000px;
+    }
+}

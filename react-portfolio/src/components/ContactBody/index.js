@@ -22,7 +22,51 @@ function ContactBody() {
     };
 
     return (
-        <div>
+        <div className="contact-container">
+
+            <section id="contact-form-section">
+                <h3 className="bold-text" id="keep-in-touch">Keep in touch</h3>
+                <div className="form-container">
+                    <form className="contact-form" onSubmit={sendEmail}>
+                        <div className="form-input">
+                            <input
+                                type="text"
+                                placeholder="Your name"
+                                name="name"
+                            />
+                        </div>
+                        <div className="form-input">
+                            <input
+                                type="text"
+                                placeholder="Your email"
+                                name="email"
+                            />
+                        </div>
+                        <div className="form-input">
+                            <input
+                                type="text"
+                                placeholder="Subject"
+                                name="subject"
+                            />
+                        </div>
+                        <div className="form-input">
+                            <textarea
+                                placeholder="Message"
+                                rows="7"
+                                name="message"
+                            >
+                            </textarea>
+                        </div>
+                        <button
+                            id="send-button"
+                            type="submit"
+                        >
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </section>
+
             <section id="connect-with-me-wrapper">
                 <h2 className="bold-text">Connect with me</h2>
                 <div className="connect-with-me row">
@@ -46,47 +90,6 @@ function ContactBody() {
                     <br></br>
                     I usually check my email very often. If I haven't replied to you yet, that probably means I'm busy travelling in the middle of nowhere, but I will get back to you as soon as possible.
                 </p>
-            </section>
-
-            <section>
-                <div className="form-container">
-                    <form className="contact-form" onSubmit={sendEmail}>
-                        <label>Name</label>
-                        <input
-                            type="text"
-                            placeholder="Your name"
-                            name="name"
-                        />
-                        <br></br>
-                        <label>Email</label>
-                        <input
-                            type="text"
-                            placeholder="Your email"
-                            name="email"
-                        />
-                        <br></br>
-                        <label>Subject</label>
-                        <input
-                            type="text"
-                            placeholder="Subject"
-                            name="subject"
-                        />
-                        <br></br>
-                        <label>Message</label>
-                        <textarea
-                            placeholder="Message"
-                            rows="5"
-                            name="message"
-                        >
-                        </textarea>
-                        <br></br>
-                        <button
-                            type="submit"
-                        >
-                            Send
-                        </button>
-                    </form>
-                </div>
             </section>
         </div>
     );
