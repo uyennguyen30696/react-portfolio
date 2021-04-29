@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "./style.css";
 import GitHubImg from "./images/github_logo.png";
@@ -6,18 +6,38 @@ import LinkedInImg from "./images/linkedin_logo.jpg";
 
 function ContactBody() {
 
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+
+    const updateName = (e) => {
+        setName(e.target.value);
+    };
+
+    const updateEmail = (e) => {
+        setEmail(e.target.value);
+    };
+
+    const updateMessage = (e) => {
+        setMessage(e.target.value)
+    };
+
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm("service_o40nqnb", "template_60m1gj8", e.target, "user_qVnfI1mR3ENb2i9IQtClH")
-            .then((result) => {
-                console.log(result.text);
-                alert("Thank you! Your message was successfully sent.");
-            }, (error) => {
-                console.log(error.text);
-                alert("Sorry, an error occurred.");
-            });
-
+        if (name && email && message) {
+            emailjs.sendForm("service_o40nqnb", "template_60m1gj8", e.target, "user_qVnfI1mR3ENb2i9IQtClH")
+                .then((result) => {
+                    console.log(result.text);
+                    alert("Thank you! Your message was successfully sent.");
+                }, (error) => {
+                    console.log(error.text);
+                    alert("Sorry, an error occurred.");
+                });
+        } else {
+            alert("Please enter valid required information");
+        };
+        
         e.target.reset();
     };
 
@@ -33,6 +53,7 @@ function ContactBody() {
                                 type="text"
                                 placeholder="Your name"
                                 name="name"
+                                onChange={(e) => updateName(e)}
                             />
                         </div>
                         <div className="form-input">
@@ -40,6 +61,7 @@ function ContactBody() {
                                 type="text"
                                 placeholder="Your email"
                                 name="email"
+                                onChange={(e) => updateEmail(e)}
                             />
                         </div>
                         <div className="form-input">
@@ -54,6 +76,7 @@ function ContactBody() {
                                 placeholder="Message"
                                 rows="7"
                                 name="message"
+                                onChange={(e) => updateMessage(e)}
                             >
                             </textarea>
                         </div>

@@ -62,17 +62,19 @@ input, textarea {
     position: relative;
     display: block;
     margin: 10px;
+    border-color: lightgray;
     border-radius: 7px;
     padding: 5px;
     width: 100%;
 }
 
 #send-button {
-    border-color: #3A2C30;;
+    border-color: #3A2C30;
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    color: #3A2C30;
+    background-color: #3A2C30;
+    color: white;
 }
 
 @media (max-width: 420px) {
