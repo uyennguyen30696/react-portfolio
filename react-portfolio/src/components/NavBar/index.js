@@ -13,7 +13,7 @@ function NavBar() {
                     <Nav className="mr-auto">
                         <Nav.Link href="#home-page">Home</Nav.Link>
                         <Nav.Link href="#portfolioFullStack-page">Portfolio</Nav.Link>
-                        <Nav.Link href="https://docs.google.com/document/d/13abW9uFe8jPw9Qd8nvKZZp3naDpZR0JnHH_PfXhU1oA/edit"
+                        <Nav.Link href="https://uyennguyen30696.github.io/pdf/index.html"
                             target="_blank">Resume
                         </Nav.Link>
                         <Nav.Link href="#contact-page">Contact</Nav.Link>
