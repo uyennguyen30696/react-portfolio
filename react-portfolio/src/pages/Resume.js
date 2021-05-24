@@ -1,9 +1,17 @@
 import React from "react";
+import Iframe from "react-iframe";
+import PDF from "../pdf/resume.pdf";
 
 function Resume() {
     return (
         <div id="resumePage">
-            <p>Resume</p>
+            <Iframe 
+                src={PDF} 
+                title="resume"
+                position="absolute"
+                width="100%"
+                height="100%" 
+            />
         </div>
     );
 };
