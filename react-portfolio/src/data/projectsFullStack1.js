@@ -2,7 +2,7 @@ import gameKeeperImg from "../images/game-keeper.png";
 import confessionsImg from "../images/confessions.png";
 import burgerImg from "../images/eat-da-burger.png";
 
-const projectsFullStack = [
+const projectsFullStack1 = [
     {
         "id": 1,
         "image": gameKeeperImg,
@@ -32,4 +32,4 @@ const projectsFullStack = [
     }
 ]
 
-export default projectsFullStack;
+export default projectsFullStack1;
