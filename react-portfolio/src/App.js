@@ -9,7 +9,7 @@ function App() {
         <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path={["/", "/react-portfolio"]} component={AllPages} />
-                <Route exact path={["/resume", "/pdf/Uyen Nguyen - Resume (most recent).pdf"]} component={Resume} />
+                <Route exact path={["/", "/pdf/Uyen Nguyen - Resume (most recent).pdf"]} component={Resume} />
                 <Route component={NoMatch} />
             </Switch>
         </Router>
