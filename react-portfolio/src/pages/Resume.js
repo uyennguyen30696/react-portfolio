@@ -1,6 +1,6 @@
 import React from "react";
 import Iframe from "react-iframe";
-import PDF from "../pdf/resume.pdf";
+import PDF from "../pdf/resume_uyen_nguyen.pdf";
 
 function Resume() {
     return (
