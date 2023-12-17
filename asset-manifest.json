@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.0d75e48e.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.f2661ab2.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.f2661ab2.chunk.js.map",
+    "main.js": "/react_portfolio/static/js/main.310ac1a4.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.310ac1a4.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.e5be7b54.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.e5be7b54.js.map",
     "static/css/2.fabbef47.chunk.css": "/react_portfolio/static/css/2.fabbef47.chunk.css",
@@ -21,7 +21,7 @@
     "static/media/googlebooks.c6a1fbba.png": "/react_portfolio/static/media/googlebooks.c6a1fbba.png",
     "static/media/profile.9c0f264a.png": "/react_portfolio/static/media/profile.9c0f264a.png",
     "static/media/project-01.35deabed.png": "/react_portfolio/static/media/project-01.35deabed.png",
-    "static/media/resume.a3fe4d45.pdf": "/react_portfolio/static/media/resume.a3fe4d45.pdf",
+    "static/media/resume_uyen_nguyen.a3fe4d45.pdf": "/react_portfolio/static/media/resume_uyen_nguyen.a3fe4d45.pdf",
     "static/media/timed-trivia.1a60660e.png": "/react_portfolio/static/media/timed-trivia.1a60660e.png",
     "static/media/weather.d817bb63.png": "/react_portfolio/static/media/weather.d817bb63.png",
     "static/media/workday.962bd515.png": "/react_portfolio/static/media/workday.962bd515.png"
@@ -31,6 +31,6 @@
     "static/css/2.fabbef47.chunk.css",
     "static/js/2.63072db1.chunk.js",
     "static/css/main.0d75e48e.chunk.css",
-    "static/js/main.f2661ab2.chunk.js"
+    "static/js/main.310ac1a4.chunk.js"
   ]
 }
