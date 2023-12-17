@@ -1,9 +1,0 @@
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-    z-index: 2;
-    background-color: #292929 !important;
-    z-index: 3;
-}
