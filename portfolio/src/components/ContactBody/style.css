@@ -100,13 +100,13 @@
     }
 
     .paper-plane-icon {
-        width: 30px;
-        height: 30px;  
+        width: 20px;
+        height: 20px;  
     }
     
     .paper-plane-icon:hover {
-        width: 40px;
-        height: 40px; 
+        width: 30px;
+        height: 30px; 
     }
 }
 
@@ -127,12 +127,12 @@
     }
 
     .paper-plane-icon {
-        width: 30px;
-        height: 30px;  
+        width: 20px;
+        height: 20px;  
     }
     
     .paper-plane-icon:hover {
-        width: 40px;
-        height: 40px; 
+        width: 30px;
+        height: 30px; 
     }
 }
