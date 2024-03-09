@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.e9e8fa8d.css",
+    "main.css": "/react-portfolio/static/css/main.c83cdedc.css",
     "main.js": "/react-portfolio/static/js/main.7b84114f.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/blue-black-abstract-background-freepik.jpg": "/react-portfolio/static/media/blue-black-abstract-background-freepik.1779a9e3ac0b2bd008f0.jpg",
@@ -15,12 +15,12 @@
     "static/media/confessions.png": "/react-portfolio/static/media/confessions.6818a06f43930fdffa87.png",
     "static/media/timed-trivia.png": "/react-portfolio/static/media/timed-trivia.1a60660e02cfd887ce17.png",
     "index.html": "/react-portfolio/index.html",
-    "main.e9e8fa8d.css.map": "/react-portfolio/static/css/main.e9e8fa8d.css.map",
+    "main.c83cdedc.css.map": "/react-portfolio/static/css/main.c83cdedc.css.map",
     "main.7b84114f.js.map": "/react-portfolio/static/js/main.7b84114f.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9e8fa8d.css",
+    "static/css/main.c83cdedc.css",
     "static/js/main.7b84114f.js"
   ]
 }
