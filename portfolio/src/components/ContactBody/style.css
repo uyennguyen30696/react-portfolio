@@ -1,0 +1,118 @@
+.form-container {
+    margin: auto; /* Center the wrapper horizontally */
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#contact-form {
+    background-color: white;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.form-input {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-title {
+    color: #1c2e4a;
+}
+
+.form-input input,
+.form-input textarea {
+    width: calc(100% - 22px); /* Adjust the width to span the container minus padding and border */
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.asterisk {
+    color: red;
+}
+
+.form-button-and-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#send-button {
+    background-color: white; 
+    border: 2px solid #2b1d60;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* While clicked, the send button moves down a bit, creating animation */
+#send-button:active {
+    transform: translateY(5px);
+}
+
+.paper-plane-icon {
+    color: #2b1d60;
+    height: auto;
+    width: 65%; 
+}
+
+.paper-plane-icon:hover {
+    width: 75%;
+}
+
+/* Keep the icons on the same line */
+.icons-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.contact-icon {
+    color: #2b1d60;
+    font-size: 250%; /* Increase the original size by 2.5x */
+    margin: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Media query for smaller screen sizes */
+@media (max-width: 425px) {
+    #send-button {
+        width: 50px;
+        height: 50px; 
+    }
+
+    .icons-container {
+        margin-right: 10px;
+    }
+    
+    .contact-icon {
+        font-size: 200%;
+        margin: 0 !important;
+        padding: 7px 7px 0 !important;
+    }
+}
+
+@media (max-width: 375px) {
+    #send-button {
+        width: 50px;
+        height: 50px; 
+    }
+
+    .icons-container {
+        margin-right: 10px;
+    }
+    
+    .contact-icon {
+        font-size: 180%;
+        margin: 0 !important;
+        padding: 5px 5px 0 !important;
+    }
+}

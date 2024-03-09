@@ -1,0 +1,33 @@
+#projects-full-stack, 
+#projects-front-end {
+    margin: 30px auto;
+    margin-top: 0;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+#projects-full-stack {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+#projects-full-stack h3,
+#projects-front-end h3 {
+    color: #1c2e4a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 2px solid #CCCC;
+}
+
+#projects-front-end {
+    background-color: #e0e0e0;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,29 @@
+footer {
+    background-color: #CCC;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#extra-info {
+    margin-bottom: 20px;
+}
+
+#built-with {
+    margin-bottom: 10px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 30px; 
+    margin: 0 10px;
+}
+
+p {
+    font-weight: 600;
+    margin: 0;
+}
+

@@ -1,0 +1,11 @@
+#home {
+    height: 80vh;
+    width: 100vw;
+    padding: 15px;
+    padding-bottom: 0;
+    background-image: url("../../images/background/blue-black-abstract-background-freepik.jpg"); /* https://www.freepik.com/free-vector/blue-black-abstract-background_23651455.htm#fromView=search&page=1&position=5&uuid=ac758389-6f08-4c78-bdfa-aeef4751c6d9 */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    overflow: visible;
+}

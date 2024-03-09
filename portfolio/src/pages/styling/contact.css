@@ -1,0 +1,26 @@
+#contact {
+    background-color: #f2f2f2;
+    background: linear-gradient(to bottom, #2b1d60 40%, white 25%);
+    margin: 30px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+#contact h4 {
+    color: #f2f2f2;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 2px solid #CCCC;
+}
+
+/* Media query for smaller screen sizes */
+@media (max-width: 425px) {
+    #contact{
+        padding: 20px;
+    }
+}

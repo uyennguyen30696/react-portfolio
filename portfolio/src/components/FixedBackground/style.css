@@ -1,0 +1,12 @@
+#fixed-background {
+    position: fixed;
+    top: 12%;
+    width: 100vw;
+    height: 83%;
+    /* https://www.freepik.com/free-vector/email-message-service-isometric-marketing-concept_6428795.htm#fromView=search&page=1&position=1&uuid=d0b965aa-a839-4738-8364-d3d5de1505bc */
+    background-image: url("../../images/background/email-paper-plane-Freepik.png");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    z-index: -1;
+}

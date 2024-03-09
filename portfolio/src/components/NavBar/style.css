@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+#navbar-wrapper {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.navbar {
+    padding-left: 20px; 
+    padding-right: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display';
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    color: #1c2e4a;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* Highlight navbar links on hover */
+.nav-link {
+    color: #1c2e4a;
+    position: relative; 
+}
+
+/* Shadow effect by adding a pseudo-element when hovering over the navbar links */
+.nav-link:hover::after {
+    content: ''; /* Add an empty pseudo-element */
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; /* Shadow as wide as the word */
+    height: 1px; /* Shadow height */
+    background-color: rgba(0, 0, 0, 0.2); /* Shadow color */
+}
+
+/* Customize style for dropdown items in the Projects dropdown */
+.dropdown-menu {
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display';
+}
+
+#basic-nav-dropdown {
+    color: #1c2e4a;
+}
+
+/* Hide the default arrow next to Projects */
+#basic-nav-dropdown::after {
+    display: none;
+}
+
+/* Apply the shadow effect on Projects again */
+#basic-nav-dropdown:hover::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Remove thick shadow effect on hover for the Projects dropdown */
+#basic-nav-dropdown:hover::after {
+    border: 0;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: #1c2e4a;
+}
+
+/* Style dropdown items individually on hover */
+.dropdown-menu a.dropdown-item:hover {
+    background-color: white; 
+    position: relative; /* Set position to relative for pseudo-element */
+}
+
+/* Add shadow effect to each dropdown item on hover */
+.dropdown-menu a.dropdown-item:hover::after {
+    content: ''; /* Add an empty pseudo-element */
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; /* Shadow as wide as the word */
+    height: 1px; /* Shadow height */
+    background-color: rgba(0, 0, 0, 0.2); /* Shadow color */
+}
+
+/* Change background color of dropdown items when clicked */
+.dropdown-menu a.dropdown-item:focus,
+.dropdown-menu a.dropdown-item:active {
+    background-color: white; 
+}
+
+/* Thin shadow effect on hover for the dropdown menu items */
+.dropdown-item-custom:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px; /* Adjust the height of the shadow */
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust the color and opacity of the shadow */
+}
