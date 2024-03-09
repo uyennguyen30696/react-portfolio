@@ -15,7 +15,8 @@ function NavBar({ onToggle }) {
                             <NavDropdown.Item href="#projects-full-stack">Full Stack</NavDropdown.Item>
                             <NavDropdown.Item href="#projects-front-end">Front End</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/pdf/resume.pdf" target="_blank">Resume</Nav.Link>
+                        {/* <Nav.Link href="/pdf/resume.pdf" target="_blank">Resume</Nav.Link> */}
+                        <Nav.Link href={`${process.env.PUBLIC_URL}/pdf/resume.pdf`} target="_blank">Resume</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
