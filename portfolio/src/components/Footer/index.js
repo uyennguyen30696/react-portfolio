@@ -14,10 +14,10 @@ const Footer = () => {
                 <div id="built-with">
                     <p>Built with</p>
                     <div className="icons-container">
-                        <p><a href="https://react.dev/" rel="noreferrer" target="_blank"><img src={reactIcon} alt="React.js" class="icon" /></a></p>
-                        <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noreferrer" target="_blank"><img src={javascriptIcon} alt="Javascript" class="icon" /></a></p>
-                        <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" rel="noreferrer" target="_blank"><img src={htmlIcon} alt="HTML" class="icon" /></a></p>
-                        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="noreferrer" target="_blank"><img src={cssIcon} alt="CSS" class="icon" /></a></p>
+                        <p><a href="https://react.dev/" rel="noreferrer" target="_blank"><img src={reactIcon} alt="React.js" className="icon" /></a></p>
+                        <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noreferrer" target="_blank"><img src={javascriptIcon} alt="Javascript" className="icon" /></a></p>
+                        <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" rel="noreferrer" target="_blank"><img src={htmlIcon} alt="HTML" className="icon" /></a></p>
+                        <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" rel="noreferrer" target="_blank"><img src={cssIcon} alt="CSS" className="icon" /></a></p>
                     </div>
                 </div>
             </section>
