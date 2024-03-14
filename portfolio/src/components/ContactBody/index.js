@@ -76,10 +76,18 @@ const ContactBody = () => {
                             <FontAwesomeIcon icon={faPaperPlane} className="paper-plane-icon" />
                         </button>
                         <div className="icons-container">
-                            <div><a href="mailto:nguyenuyen30696@gmail.com" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faEnvelope} size="3x" className="contact-icon" id="gmail-icon" /></a></div>
-                            <div><a href="https://github.com/uyennguyen30696" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faSquareGithub} size="3x" className="contact-icon" /></a></div>
-                            <div><a href="https://www.linkedin.com/in/uyen-nguyen-85584a16b/" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="3x" className="contact-icon" /></a></div>
-                            <div><a href="https://www.youtube.com/channel/UCpR6U2rHHYJlGVmxQxzCAIw" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faYoutube} size="3x" className="contact-icon" id="youtube-icon" /></a></div>
+                            <div className="contact-icon-circle">
+                                <a href="mailto:nguyenuyen30696@gmail.com" rel="noreferrer" target="_blank" className="contact-icon"><FontAwesomeIcon icon={faEnvelope} size="3x" id="gmail-icon" /></a>
+                            </div>
+                            <div className="contact-icon-circle">
+                                <a href="https://github.com/uyennguyen30696" rel="noreferrer" target="_blank" className="contact-icon"><FontAwesomeIcon icon={faSquareGithub} size="3x" /></a>
+                            </div>
+                            <div className="contact-icon-circle">
+                                <a href="https://www.linkedin.com/in/uyen-nguyen-85584a16b/" rel="noreferrer" target="_blank" className="contact-icon"><FontAwesomeIcon icon={faLinkedin} size="3x" /></a>
+                            </div>
+                            <div className="contact-icon-circle">
+                                <a href="https://www.youtube.com/channel/UCpR6U2rHHYJlGVmxQxzCAIw" rel="noreferrer" target="_blank" className="contact-icon"><FontAwesomeIcon icon={faYoutube} size="3x" id="youtube-icon" /></a>
+                            </div>
                         </div>
                     </div>
                 </form>

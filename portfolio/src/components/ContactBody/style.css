@@ -75,28 +75,39 @@
 }
 
 .contact-icon {
-    color: #2b1d60;
-    font-size: 250%; /* Increase the original size by 2.5x */
-    margin: 0;
-    margin-right: 20px;
+    color: white;
+    font-size: 0.65em; /* Increase the original size by 2.5x */
     cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-icon-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    background-color: #2b1d60; 
+    margin-right: 15px; 
 }
 
 /* Media query for smaller screen sizes */
-@media (max-width: 425px) {
+@media (max-width: 555px) {
     #send-button {
         width: 50px;
         height: 50px; 
     }
 
-    .icons-container {
-        margin-right: 10px;
+    .contact-icon-circle {
+        width: 35px; 
+        height: 35px; 
+        margin: 0 0 0 10px !important;
     }
     
     .contact-icon {
-        font-size: 200%;
-        margin: 0 !important;
-        padding: 7px 7px 0 !important;
+        font-size: 0.45em;
     }
 
     .paper-plane-icon {
@@ -107,32 +118,114 @@
     .paper-plane-icon:hover {
         width: 30px;
         height: 30px; 
+    }
+}
+
+@media (max-width: 450px) {
+    #send-button {
+        width: 45px;
+        height: 45px; 
+    }
+
+    .contact-icon-circle {
+        width: 35px; 
+        height: 35px; 
+        margin: 0 0 0 10px !important;
+    }
+    
+    .contact-icon {
+        font-size: 0.45em;
+    }
+
+    .paper-plane-icon {
+        width: 20px;
+        height: 20px;  
+    }
+    
+    .paper-plane-icon:hover {
+        width: 30px;
+        height: 30px; 
+    }
+}
+
+@media (max-width: 420px) {
+    #send-button {
+        width: 40px;
+        height: 40px; 
+    }
+
+    .contact-icon-circle {
+        width: 35px; 
+        height: 35px; 
+        margin: 0 0 0 10px !important;
+    }
+    
+    .contact-icon {
+        font-size: 0.40em;
+    }
+
+    .paper-plane-icon {
+        width: 15px;
+        height: 15px;  
+    }
+    
+    .paper-plane-icon:hover {
+        width: 25px;
+        height: 25px; 
+    }
+}
+
+@media (max-width: 400px) {
+    #send-button {
+        width: 40px;
+        height: 40px; 
+    }
+
+    .contact-icon-circle {
+        width: 30px; 
+        height: 30px; 
+        margin: 0 0 0 7px !important;
+    }
+    
+    .contact-icon {
+        font-size: 0.35em;
+    }
+
+    .paper-plane-icon {
+        width: 15px;
+        height: 15px;  
+    }
+    
+    .paper-plane-icon:hover {
+        width: 25px;
+        height: 25px; 
     }
 }
 
 @media (max-width: 375px) {
     #send-button {
-        width: 50px;
-        height: 50px; 
+        width: 40px;
+        height: 40px; 
     }
 
-    .icons-container {
-        margin-right: 10px;
+    .contact-icon-circle {
+        width: 25px; 
+        height: 25px; 
+        margin: 0 0 0 5px !important;
     }
     
     .contact-icon {
-        font-size: 180%;
-        margin: 0 !important;
-        padding: 5px 5px 0 !important;
+        font-size: 0.3em;
     }
 
     .paper-plane-icon {
-        width: 20px;
-        height: 20px;  
+        width: 15px;
+        height: 15px;  
     }
     
     .paper-plane-icon:hover {
-        width: 30px;
-        height: 30px; 
+        width: 25px;
+        height: 25px; 
     }
 }
+
