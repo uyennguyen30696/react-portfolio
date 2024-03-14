@@ -12,7 +12,7 @@ const Footer = () => {
         <footer>
             <section id="extra-info">
                 <div id="built-with">
-                    <h4>Built with</h4>
+                    <p>Built with</p>
                     <div className="icons-container">
                         <p><a href="https://react.dev/" rel="noreferrer" target="_blank"><img src={reactIcon} alt="React.js" class="icon" /></a></p>
                         <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="noreferrer" target="_blank"><img src={javascriptIcon} alt="Javascript" class="icon" /></a></p>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
-            <p>Made by Uyen with ❤️</p>
+            <p id="made-by">Made by Uyen with ❤️</p>
         </footer>
     );
 };

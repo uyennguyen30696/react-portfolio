@@ -1,15 +1,18 @@
 footer {
-    background-color: #CCC;
-    padding: 20px 0;
+    background-color: #DDDDDD;
     text-align: center;
 }
 
 #extra-info {
+    background-color: #DDDDDD;
+    border-bottom: 2px solid #CCCC;
     margin-bottom: 20px;
 }
 
 #built-with {
-    margin-bottom: 10px;
+    font-size: large;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .icons-container {
@@ -22,8 +25,7 @@ footer {
     margin: 0 10px;
 }
 
-p {
-    font-weight: 600;
+#made-by {
     margin: 0;
+    padding-bottom: 20px;
 }
-
