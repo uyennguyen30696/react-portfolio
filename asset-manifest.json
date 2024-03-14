@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.af2cb964.css",
-    "main.js": "/react-portfolio/static/js/main.a4eeb927.js",
+    "main.css": "/react-portfolio/static/css/main.385d6018.css",
+    "main.js": "/react-portfolio/static/js/main.e3644e90.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/blue-black-abstract-background-freepik.jpg": "/react-portfolio/static/media/blue-black-abstract-background-freepik.1779a9e3ac0b2bd008f0.jpg",
     "static/media/email-paper-plane-Freepik.png": "/react-portfolio/static/media/email-paper-plane-Freepik.16062d0db45d1fa31c88.png",
@@ -15,12 +15,12 @@
     "static/media/confessions.png": "/react-portfolio/static/media/confessions.6818a06f43930fdffa87.png",
     "static/media/timed-trivia.png": "/react-portfolio/static/media/timed-trivia.1a60660e02cfd887ce17.png",
     "index.html": "/react-portfolio/index.html",
-    "main.af2cb964.css.map": "/react-portfolio/static/css/main.af2cb964.css.map",
-    "main.a4eeb927.js.map": "/react-portfolio/static/js/main.a4eeb927.js.map",
+    "main.385d6018.css.map": "/react-portfolio/static/css/main.385d6018.css.map",
+    "main.e3644e90.js.map": "/react-portfolio/static/js/main.e3644e90.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af2cb964.css",
-    "static/js/main.a4eeb927.js"
+    "static/css/main.385d6018.css",
+    "static/js/main.e3644e90.js"
   ]
 }
