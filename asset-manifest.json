@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.ab751c42.css",
-    "main.js": "/react-portfolio/static/js/main.8f20dd8c.js",
+    "main.js": "/react-portfolio/static/js/main.58ebeac5.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/blue-black-abstract-background-freepik.jpg": "/react-portfolio/static/media/blue-black-abstract-background-freepik.1779a9e3ac0b2bd008f0.jpg",
     "static/media/email-paper-plane-Freepik.png": "/react-portfolio/static/media/email-paper-plane-Freepik.16062d0db45d1fa31c88.png",
     "static/media/workday.png": "/react-portfolio/static/media/workday.962bd5158a688d5cff37.png",
-    "static/media/project-01.png": "/react-portfolio/static/media/project-01.35deabedb1599c4e6b73.png",
     "static/media/weather.png": "/react-portfolio/static/media/weather.d817bb63391f3f6e650c.png",
+    "static/media/interactive-volcano-plot.png": "/react-portfolio/static/media/interactive-volcano-plot.9ff86a25ec14630025a3.png",
     "static/media/googlebooks.png": "/react-portfolio/static/media/googlebooks.c6a1fbba610f16f87591.png",
     "static/media/game-keeper.png": "/react-portfolio/static/media/game-keeper.c542d3144aaed4616211.png",
     "static/media/eat-da-burger.png": "/react-portfolio/static/media/eat-da-burger.44a9f10bc0c5f11595a0.png",
@@ -16,11 +16,11 @@
     "static/media/timed-trivia.png": "/react-portfolio/static/media/timed-trivia.1a60660e02cfd887ce17.png",
     "index.html": "/react-portfolio/index.html",
     "main.ab751c42.css.map": "/react-portfolio/static/css/main.ab751c42.css.map",
-    "main.8f20dd8c.js.map": "/react-portfolio/static/js/main.8f20dd8c.js.map",
+    "main.58ebeac5.js.map": "/react-portfolio/static/js/main.58ebeac5.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab751c42.css",
-    "static/js/main.8f20dd8c.js"
+    "static/js/main.58ebeac5.js"
   ]
 }
