@@ -1,5 +1,5 @@
 import employeeEbook from "../images/projects/employee-ebook.png";
-import foodHunt from "../images/projects/project-01.png";
+import volcano from "../images/projects/interactive-volcano-plot.png";
 import weather from "../images/projects/weather.png";
 import triviaImg from "../images/projects/timed-trivia.png";
 import workday from "../images/projects/workday.png";
@@ -11,17 +11,17 @@ const projectsFrontEnd = [
         "name": "Employee Ebook",
         "deployedLink": "https://uyennguyen30696.github.io/employee-directory/",
         "githubLink": "https://github.com/uyennguyen30696/employee-directory", 
-        "summary": "A single web application that allows easy access to non-sensitive data of employees at once. Employees can be sorted by names alphabetically.",
+        "summary": "A single web application that allows easy access to non-sensitive data of employees at once.",
         "technologies": "ReactJS"
     },
     {
         "id": 2,
-        "image": foodHunt,
-        "name": "Food Hunt",
-        "deployedLink": "https://uyennguyen30696.github.io/food-hunt-project-01/",
-        "githubLink": "https://github.com/uyennguyen30696/project-01", 
-        "summary": "A single page application that allows users to search for local restaurants and get direction to those restaurants.",
-        "technologies": "Javascript, OpenStreetMap, Leaflet"
+        "image": volcano,
+        "name": "Interactive Volcano Plot",
+        "deployedLink": "https://uyennguyen30696.shinyapps.io/shiny_app_DEG/",
+        "githubLink": "https://github.com/uyennguyen30696/interactive_volcano_plot", 
+        "summary": "An R shiny web application for interactive volcano plot to visualize pre-processed bioinformatics data.",
+        "technologies": "R, R Shiny"
     },
     {
         "id": 3,
